@@ -1,0 +1,62 @@
+{
+  "windows-2016-msvc12": {
+    "shortname": "windows-msvc12",
+    "profile": "windows-msvc12",
+    "default": true,
+    "platform": "windows",
+    "os_name": "windows",
+    "os_version": "2016",
+    "name": "Visual Studio",
+    "version": "12.5.0",
+    "labels": ["docker", "windows", "2016", "conan", "msvc12"],
+    "jenkins_node": "windows-msvc12-vm"
+  },
+  "windows-2016-msvc15": {
+    "shortname": "windows-msvc15",
+    "profile": "windows-msvc15",
+    "default": true,
+    "platform": "windows",
+    "os_name": "windows",
+    "os_version": "2016",
+    "name": "Visual Studio",
+    "version": "15.5.0",
+    "labels": ["docker", "windows", "2016", "conan", "msvc15"],
+    "jenkins_node": "windows-msvc15-vm"
+  },
+  "rhel-6.4-gcc49": {
+    "shortname": "rhel-6.4-gcc49",
+    "profile": "rhel-gcc49",
+    "default": true,
+    "platform": "linux",
+    "os_name": "RHEL",
+    "os_version": "6.4",
+    "name": "gcc",
+    "version": "4.9.2",
+    "labels": ["docker", "rhel", "6.4", "conan", "gcc49"],
+    "jenkins_node": "rhel-6.4-conan-gcc49"
+  },
+  "rhel-6.4-gcc63": {
+    "shortname": "rhel-6.4-gcc63",
+    "profile": "rhel-gcc6",
+    "default": true,
+    "platform": "linux",
+    "os_name": "RHEL",
+    "os_version": "6.4",
+    "name": "gcc",
+    "version": "6.3.0",
+    "labels": ["docker", "rhel", "6.4", "conan", "gcc63"],
+    "jenkins_node": "rhel-6.4-conan-gcc6"
+  },
+  "rhel-6.4-gcc73": {
+    "shortname": "rhel-6.4-gcc73",
+    "profile": "rhel-gcc7",
+    "default": true,
+    "platform": "linux",
+    "os_name": "RHEL",
+    "os_version": "6.4",
+    "name": "gcc",
+    "version": "7.3.1",
+    "labels": ["docker", "rhel", "6.4", "conan", "gcc73"],
+    "jenkins_node": "rhel-6.4-conan-gcc7"
+  }
+}
